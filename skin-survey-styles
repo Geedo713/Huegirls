@@ -1,0 +1,134 @@
+/*Omits horizontal scroll bar*/
+
+html {
+    overflow-x: hidden;
+}
+
+/*Responsive Controls*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-div {
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    border: 1px solid#b47421;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: white;
+}
+
+header,
+body,
+footer {
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+/*Section Control*/
+
+.primary-container-column-one{
+    max-height: 400px;
+    max-width: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+/*Button Control*/
+
+button {
+    border: none;
+    transition: transform .5s;
+    background-clip: padding-box;
+    cursor: pointer;
+    font-size: large;
+    text-transform: uppercase;
+    display: flexbox;
+    height: 40px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    background: linear-gradient(45deg, #b47421, 75%, #fff);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button::before {
+    color: black;
+}
+
+button:hover {
+    color: white;
+    transform: scale(1.5);
+}
+
+button::after {
+    color: black;
+}
+
+/*Header Control*/
+
+.h1-div {
+    background: linear-gradient(45deg, #b47421, 75%, #fff);
+    height: 30vh;
+    padding-right: 10px;
+}
+
+/*Section Background Control*/
+
+.primary {
+    border: none;
+    background: none;
+    border-radius: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 20vh;
+}
+
+.web-dev-credits {
+    border-top: 1px solid #e05300e8;
+}
