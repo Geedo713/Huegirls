@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <!--Head and tag structure-->
+    <head>
+        <title>What are your skin issues?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="hugirl.jpg">
+        <link rel="stylesheet" href="huegirls.css">
+    </head>
+     <!--Main container structure-->
+    <body><div class="container">
+  <header> <a href="https://huegirlzz.com"></a></header>
+  
+       <!--Main Div structure-->
+      <div class="main-div">
+          <div class="h1-div">
+      <h1>What is your skin type?</h1>
+      </div>
+       <!--Section 1 structure-->
+<section class="primary">
+            <button><a href="https://huegirlszz.com/collections/body-butters/products/cupuacu-body-butter">Dry Skin</a></button>
+            <button><a href="https://huegirlszz.com/collections/body-butters/products/rose-infused-kokum-butter-kokum-butter-for-stretch-marks">Oily Skin</a></button>
+            <button><a href="https://huegirlszz.com/collections/body-butters/products/chamomille-infused-illipe-nut-butter">Sensitive</a></button>
+            <button><a href="https://huegirlszz.com/collections/body-butters/products/african-yellow-shea-butter-homemade-body-butter">Combination</a></button>
+                </section>
+                <footer>
+                <h6>Powered By: Jalloh Web Construction | 2022 Huegirlszz</h6>
+                </footer>
+            </div>
+            
+        </div>
+
+</body>
+</html>
