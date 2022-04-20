@@ -22,7 +22,7 @@ html {
 
 footer {
     width: 100%;
-    border: 1px solid#b47421;
+    border: 1px solid #b47421;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -34,6 +34,137 @@ footer {
     background: white;
 }
 
+header,
+body,
+footer {
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h6 {
+    text-align: center;
+}
+
+/*Section Control*/
+
+.primary-container-column-one {
+    max-height: 400px;
+    max-width: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+/*Button Control*/
+
+button {
+    border: none;
+    transition: transform .5s;
+    background-clip: padding-box;
+    cursor: pointer;
+    font-size: large;
+    text-transform: uppercase;
+    display: flexbox;
+    height: 40px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    background: linear-gradient(45deg, #b47421, 75%, #fff);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button::before {
+    color: black;
+}
+
+button:hover {
+    color: white;
+    transform: scale(1.5);
+}
+
+button::after {
+    color: black;
+}
+
+/*Header Control*/
+
+header {
+    background: url("skin-survey-banner.png");
+    background-size: cover;
+    height: 37vh;
+    transition: all 600ms ease-out;
+    opacity: 0;
+}
+
+header::before {
+    opacity: 0;
+}
+
+header::after {
+    opacity: 1;
+}
+
+span {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding-left: 70px;
+}
+
+.header-h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #b47421;
+    padding-top: 25px;
+    padding-left: 70px;
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+
+/*Section Background Control*/
+
+.primary {
+    border: none;
+    background: none;
+    border-radius: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 20vh;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #bd602b;
+}
 header,
 body,
 footer {
